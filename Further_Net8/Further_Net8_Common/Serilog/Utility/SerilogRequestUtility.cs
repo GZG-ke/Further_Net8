@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Further_Net8_Common.Extensions;
+using Further_Net8_Common.Helper;
+using Further_Net8_Common.Https;
+using Microsoft.AspNetCore.Http;
+using Serilog;
 using Serilog.Events;
 
 namespace Further_Net8_Common.Serilog.Utility
@@ -39,33 +43,33 @@ namespace Further_Net8_Common.Serilog.Utility
         /// </summary>
         /// <param name="diagnosticContext"></param>
         /// <param name="httpContext"></param>
-        //public static void EnrichFromRequest(IDiagnosticContext diagnosticContext, HttpContext httpContext)
-        //{
-        //    var request = httpContext.Request;
+        public static void EnrichFromRequest(IDiagnosticContext diagnosticContext, HttpContext httpContext)
+        {
+            var request = httpContext.Request;
 
-        //    diagnosticContext.Set("RequestHost", request.Host);
-        //    diagnosticContext.Set("RequestScheme", request.Scheme);
-        //    diagnosticContext.Set("Protocol", request.Protocol);
-        //    diagnosticContext.Set("RequestIp", httpContext.GetRequestIp());
+            diagnosticContext.Set("RequestHost", request.Host);
+            diagnosticContext.Set("RequestScheme", request.Scheme);
+            diagnosticContext.Set("Protocol", request.Protocol);
+            diagnosticContext.Set("RequestIp", httpContext.GetRequestIp());
 
-        //    if (request.Method == HttpMethods.Get)
-        //    {
-        //        diagnosticContext.Set("QueryString", request.QueryString.HasValue ? request.QueryString.Value : string.Empty);
-        //        diagnosticContext.Set("Body", string.Empty);
-        //    }
-        //    else
-        //    {
-        //        diagnosticContext.Set("QueryString", request.QueryString.HasValue ? request.QueryString.Value : string.Empty);
-        //        diagnosticContext.Set("Body", request.ContentLength > 0 ? request.GetRequestBody() : string.Empty);
-        //    }
+            if (request.Method == HttpMethods.Get)
+            {
+                diagnosticContext.Set("QueryString", request.QueryString.HasValue ? request.QueryString.Value : string.Empty);
+                diagnosticContext.Set("Body", string.Empty);
+            }
+            else
+            {
+                diagnosticContext.Set("QueryString", request.QueryString.HasValue ? request.QueryString.Value : string.Empty);
+                diagnosticContext.Set("Body", request.ContentLength > 0 ? request.GetRequestBody() : string.Empty);
+            }
 
-        //    diagnosticContext.Set("ContentType", httpContext.Response.ContentType);
+            diagnosticContext.Set("ContentType", httpContext.Response.ContentType);
 
-        //    var endpoint = httpContext.GetEndpoint();
-        //    if (endpoint != null)
-        //    {
-        //        diagnosticContext.Set("EndpointName", endpoint.DisplayName);
-        //    }
-        //}
+            var endpoint = httpContext.GetEndpoint();
+            if (endpoint != null)
+            {
+                diagnosticContext.Set("EndpointName", endpoint.DisplayName);
+            }
+        }
     }
 }

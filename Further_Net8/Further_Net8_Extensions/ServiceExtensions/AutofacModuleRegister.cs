@@ -4,6 +4,7 @@ using Autofac.Extras.DynamicProxy;
 using Further_Net8_Repository.Base;
 using Further_Net8_Repository.UnitOfWorks;
 using Further_Net8_Servive.Base;
+using Serilog;
 
 namespace Further_Net8_Extensions.ServiceExtensions
 {
@@ -22,6 +23,12 @@ namespace Further_Net8_Extensions.ServiceExtensions
 
             var servicesDllFile = Path.Combine(basePath, "Further_Net8_Servive.dll");
             var repositoryDllFile = Path.Combine(basePath, "Further_Net8_Repository.dll");
+            if (!(File.Exists(servicesDllFile) && File.Exists(repositoryDllFile)))
+            {
+                var msg = "Repository.dll和service.dll 丢失，因为项目解耦了，所以需要先F6编译，再F5运行，请检查 bin 文件夹，并拷贝。";
+                Log.Error(msg);
+                throw new Exception(msg);
+            }
 
             var aopTypes = new List<Type>() { typeof(ServiceAOP), typeof(TranAOP) };
             builder.RegisterType<ServiceAOP>();
@@ -29,7 +36,7 @@ namespace Further_Net8_Extensions.ServiceExtensions
 
             builder.RegisterGeneric(typeof(BaseRepository<>)).As(typeof(IBaseRepository<>))
                 .InstancePerDependency(); //注册仓储
-            builder.RegisterGeneric(typeof(BaseServices<,>)).As(typeof(IBaseServices<,>))
+            builder.RegisterGeneric(typeof(BaseServices<>)).As(typeof(IBaseServices<>))
                 .EnableInterfaceInterceptors()
                 .InterceptedBy(aopTypes.ToArray())
                 .InstancePerDependency(); //注册服务

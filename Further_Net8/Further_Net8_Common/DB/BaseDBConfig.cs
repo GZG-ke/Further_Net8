@@ -24,18 +24,6 @@ namespace Further_Net8_Common.DB
 
         public static bool IsMulti => ValidConfig.Count > 1;
 
-        /* 之前的单库操作已经删除，如果想要之前的代码，可以查看我的GitHub的历史记录
-         * 目前是多库操作，默认加载的是appsettings.json设置为true的第一个db连接。
-         *
-         * 优化配置连接
-         * 老的配置方式,再多库和从库中有些冲突
-         * 直接在单个配置中可以配置从库
-         *
-         * 新增故障转移方案
-         * 增加主库备用连接,配置方式为ConfigId为主库的ConfigId+随便数字 只要不重复就好
-         *
-         * 主库在无法连接后会自动切换到备用链接
-         */
         public static (List<MutiDBOperate> allDbs, List<MutiDBOperate> slaveDbs) MutiConnectionString => MutiInitConn();
 
         public static (List<MutiDBOperate>, List<MutiDBOperate>) MutiInitConn()

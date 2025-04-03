@@ -1,8 +1,10 @@
 ﻿using System.Text.RegularExpressions;
 using Further_Net8_Common;
 using Further_Net8_Common.Caches;
+using Further_Net8_Common.Consts;
 using Further_Net8_Common.Core;
 using Further_Net8_Common.DB;
+using Further_Net8_Common.Helper;
 using Microsoft.Extensions.DependencyInjection;
 using SqlSugar;
 
@@ -102,7 +104,7 @@ namespace Further_Net8_Extensions.ServiceExtensions
                                 config);
                         };
                         // 数据审计
-                        //dbProvider.Aop.DataExecuting = SqlSugarAop.DataExecuting;
+                        dbProvider.Aop.DataExecuting = SqlSugarAop.DataExecuting;
 
                         // 配置实体假删除过滤器
                         RepositorySetting.SetDeletedEntityFilter(dbProvider);

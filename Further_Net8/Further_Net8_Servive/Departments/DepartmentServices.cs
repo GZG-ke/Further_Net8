@@ -1,18 +1,18 @@
 ﻿using AutoMapper;
 using Further_Net8_Common;
 using Further_Net8_Common.Attributes;
+using Further_Net8_Common.Helper;
 using Further_Net8_Model.Models;
-using Further_Net8_Model.Vo;
 using Further_Net8_Repository.Base;
 using Further_Net8_Servive.Base;
 
 namespace Further_Net8_Servive.Departments
 {
-    public class DepartmentServices : BaseServices<Department, UserVo>, IDepartmentServices
+    public class DepartmentServices : BaseServices<Department>, IDepartmentServices
     {
         private readonly IBaseRepository<Department> _dal;
 
-        public DepartmentServices(IMapper mapper, IBaseRepository<Department> baseRepository) : base(mapper, baseRepository)
+        public DepartmentServices(IMapper mapper, IBaseRepository<Department> baseRepository) : base(baseRepository)
         {
             _dal = baseRepository;
         }

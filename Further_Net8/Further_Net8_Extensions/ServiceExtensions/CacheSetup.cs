@@ -1,7 +1,10 @@
 ﻿using Further_Net8_Common.Caches;
 using Further_Net8_Common.Core;
+using Further_Net8_Common.Helper;
 using Further_Net8_Common.Option;
 using Further_Net8_Extensions.Redis;
+using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using StackExchange.Redis;
 
@@ -26,13 +29,12 @@ namespace Further_Net8_Extensions.ServiceExtensions
                     configuration.ResolveDns = true;
                     return ConnectionMultiplexer.Connect(configuration);
                 });
-                services.AddSingleton<ConnectionMultiplexer>(p => p.GetService<IConnectionMultiplexer>() as ConnectionMultiplexer);
-
+                services.AddSingleton(p => p.GetService<IConnectionMultiplexer>() as ConnectionMultiplexer);
                 //使用Redis
                 services.AddStackExchangeRedisCache(options =>
                 {
                     options.ConnectionMultiplexerFactory = () => Task.FromResult(App.GetService<IConnectionMultiplexer>(false));
-                    if (!string.IsNullOrEmpty(cacheOptions.InstanceName)) options.InstanceName = cacheOptions.InstanceName;
+                    if (!cacheOptions.InstanceName.IsNullOrEmpty()) options.InstanceName = cacheOptions.InstanceName;
                 });
 
                 services.AddTransient<IRedisBasketRepository, RedisBasketRepository>();
@@ -40,8 +42,11 @@ namespace Further_Net8_Extensions.ServiceExtensions
             else
             {
                 //使用内存
-                services.AddMemoryCache();
-                services.AddDistributedMemoryCache();
+                services.Remove(services.FirstOrDefault(x => x.ServiceType == typeof(IMemoryCache)));
+                services.AddSingleton<MemoryCacheManager>();
+                services.AddSingleton<IMemoryCache>(provider => provider.GetService<MemoryCacheManager>());
+                services.AddOptions();
+                services.AddSingleton<IDistributedCache, CommonMemoryDistributedCache>();
             }
 
             services.AddSingleton<ICaching, Caching>();

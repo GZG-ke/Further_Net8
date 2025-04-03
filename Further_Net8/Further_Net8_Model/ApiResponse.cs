@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Further_Net8_Model
+﻿namespace Further_Net8_Model
 {
     public class ApiResponse
     {
@@ -22,18 +16,21 @@ namespace Further_Net8_Model
                         Value = msg ?? "很抱歉，您无权访问该接口，请确保已经登录!";
                     }
                     break;
+
                 case StatusCode.CODE403:
                     {
                         Status = 403;
                         Value = msg ?? "很抱歉，您的访问权限等级不够，联系管理员!";
                     }
                     break;
+
                 case StatusCode.CODE404:
                     {
                         Status = 404;
                         Value = "资源不存在!";
                     }
                     break;
+
                 case StatusCode.CODE500:
                     {
                         Status = 500;

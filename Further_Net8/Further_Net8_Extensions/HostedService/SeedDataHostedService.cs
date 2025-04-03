@@ -1,4 +1,5 @@
 ﻿using Further_Net8_Common;
+using Further_Net8_Common.Helper;
 using Further_Net8_Common.Seed;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;

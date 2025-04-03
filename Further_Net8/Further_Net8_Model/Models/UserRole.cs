@@ -8,6 +8,19 @@ namespace Further_Net8_Model.Models
     /// </summary>
     public class UserRole : RootEntityTkey<long>
     {
+        public UserRole()
+        { }
+
+        public UserRole(long uid, long rid)
+        {
+            UserId = uid;
+            RoleId = rid;
+            CreateTime = DateTime.Now;
+            IsDeleted = false;
+            CreateId = uid;
+            CreateTime = DateTime.Now;
+        }
+
         /// <summary>
         /// 用户ID
         /// </summary>

@@ -6,20 +6,14 @@ namespace Further_Net8_Model.Models
     /// <summary>
     /// 按钮跟权限关联表
     /// </summary>
-    public class RoleModulePermission : RootEntityTkey<long>
+    public class RoleModulePermission : RoleModulePermissionRoot<long>
     {
-        public long RoleId { get; set; }
-
-        /// <summary>
-        /// 接口ID
-        /// </summary>
-        public long ModuleId { get; set; }
-
-        /// <summary>
-        /// 菜单前端 ID
-        /// </summary>
-        [SugarColumn(IsNullable = true)]
-        public long PermissionId { get; set; }
+        public RoleModulePermission()
+        {
+            //this.Role = new Role();
+            //this.Module = new Module();
+            //this.Permission = new Permission();
+        }
 
         /// <summary>
         ///获取或设置是否禁用，逻辑上的删除，非物理删除
@@ -69,5 +63,8 @@ namespace Further_Net8_Model.Models
 
         [SugarColumn(IsIgnore = true)]
         public Modules Module { get; set; }
+
+        [SugarColumn(IsIgnore = true)]
+        public Permission Permission { get; set; }
     }
 }

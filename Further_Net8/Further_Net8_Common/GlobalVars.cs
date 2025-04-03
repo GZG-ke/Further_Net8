@@ -9,7 +9,7 @@
 
         /// <summary>
         /// 测试网关授权
-        /// 可以使用Blog.Core项目中的test用户
+        /// 可以使用Further_Net8_Extensions项目中的test用户
         /// 账号：test
         /// 密码：test
         /// </summary>

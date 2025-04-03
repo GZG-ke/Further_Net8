@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using Further_Net8_Model;
 
 namespace Further_Net8_Common.HttpContextUser
 {
@@ -17,5 +18,7 @@ namespace Further_Net8_Common.HttpContextUser
         string GetToken();
 
         List<string> GetUserInfoFromToken(string ClaimType);
+
+        MessageModel<string> MessageModel { get; set; }
     }
 }

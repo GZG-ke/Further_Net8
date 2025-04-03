@@ -1,4 +1,5 @@
-﻿using Further_Net8_Common.Serilog.Sink;
+﻿using Further_Net8_Common.Helper;
+using Further_Net8_Common.Serilog.Sink;
 using Serilog;
 using Serilog.Sinks.PeriodicBatching;
 

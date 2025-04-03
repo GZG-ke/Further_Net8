@@ -29,7 +29,7 @@ namespace Further_Net8_Common.DB
             return typeof(RootEntityTkey<>).Assembly
                 .GetTypes()
                 .Where(t => t.IsClass && !t.IsAbstract)
-                .Where(it => it.FullName != null && it.FullName.StartsWith("BCVP.Net8.Model"));
+                .Where(it => it.FullName != null && it.FullName.StartsWith("Further_Net8_Model"));
         });
 
         public static IEnumerable<Type> Entitys => AllEntitys.Value;

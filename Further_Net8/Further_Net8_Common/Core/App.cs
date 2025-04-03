@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using Further_Net8_Common.Helper.Consoles;
 using Further_Net8_Common.HttpContextUser;
 using Further_Net8_Common.Option;
 using Microsoft.AspNetCore.Hosting;
@@ -62,22 +63,21 @@ namespace Further_Net8_Common.Core
         /// <returns></returns>
         public static IServiceProvider GetServiceProvider(Type serviceType, bool mustBuild = false, bool throwException = true)
         {
-            if (HostEnvironment == null || RootServices != null &&
-                InternalApp.InternalServices
-                    .Where(u =>
-                        u.ServiceType ==
-                        (serviceType.IsGenericType ? serviceType.GetGenericTypeDefinition() : serviceType))
-                    .Any(u => u.Lifetime == ServiceLifetime.Singleton))
-                return RootServices;
-
             //获取请求生存周期的服务
             if (HttpContext?.RequestServices != null)
                 return HttpContext.RequestServices;
 
-            if (RootServices != null)
+            if (App.RootServices != null)
             {
-                IServiceScope scope = RootServices.CreateScope();
-                return scope.ServiceProvider;
+                return RootServices;
+            }
+
+            //单例
+            if (InternalApp.InternalServices
+               .Where(u => u.ServiceType == (serviceType.IsGenericType ? serviceType.GetGenericTypeDefinition() : serviceType))
+               .Any(u => u.Lifetime == ServiceLifetime.Singleton))
+            {
+                return RootServices ?? InternalApp.InternalServices.BuildServiceProvider();
             }
 
             if (mustBuild)
@@ -95,7 +95,7 @@ namespace Further_Net8_Common.Core
         }
 
         public static TService GetService<TService>(bool mustBuild = true) where TService : class =>
-            GetService(typeof(TService), null, mustBuild) as TService;
+            App.GetService(typeof(TService), null, mustBuild) as TService;
 
         /// <summary>获取请求生存周期的服务</summary>
         /// <typeparam name="TService"></typeparam>
@@ -103,7 +103,7 @@ namespace Further_Net8_Common.Core
         /// <param name="mustBuild"></param>
         /// <returns></returns>
         public static TService GetService<TService>(IServiceProvider serviceProvider, bool mustBuild = true)
-            where TService : class => (serviceProvider ?? GetServiceProvider(typeof(TService), mustBuild, false))?.GetService<TService>();
+            where TService : class => (serviceProvider ?? App.GetServiceProvider(typeof(TService), mustBuild, false))?.GetService<TService>();
 
         /// <summary>获取请求生存周期的服务</summary>
         /// <param name="type"></param>
@@ -111,9 +111,9 @@ namespace Further_Net8_Common.Core
         /// <param name="mustBuild"></param>
         /// <returns></returns>
         public static object GetService(Type type, IServiceProvider serviceProvider = null, bool mustBuild = true) =>
-            (serviceProvider ?? GetServiceProvider(type, mustBuild, false))?.GetService(type);
+            (serviceProvider ?? App.GetServiceProvider(type, mustBuild, false))?.GetService(type);
 
-        #endregion Service
+        #endregion
 
         #region private
 
@@ -129,13 +129,13 @@ namespace Further_Net8_Common.Core
             }
             catch
             {
-                Console.WriteLine($@"Error load `{ass.FullName}` assembly.");
+                $@"Error load `{ass.FullName}` assembly.".WriteErrorLine();
             }
 
             return source.Where(u => u.IsPublic);
         }
 
-        #endregion private
+        #endregion
 
         #region Options
 
@@ -145,9 +145,9 @@ namespace Further_Net8_Common.Core
         public static TOptions GetConfig<TOptions>()
             where TOptions : class, IConfigurableOptions
         {
-            TOptions instance = Configuration
-                .GetSection(ConfigurableOptions.GetConfigurationPath(typeof(TOptions)))
-                .Get<TOptions>();
+            TOptions instance = App.Configuration
+               .GetSection(ConfigurableOptions.GetConfigurationPath(typeof(TOptions)))
+               .Get<TOptions>();
             return instance;
         }
 
@@ -157,7 +157,7 @@ namespace Further_Net8_Common.Core
         /// <returns>TOptions</returns>
         public static TOptions GetOptions<TOptions>(IServiceProvider serviceProvider = null) where TOptions : class, new()
         {
-            IOptions<TOptions> service = GetService<IOptions<TOptions>>(serviceProvider ?? RootServices, false);
+            IOptions<TOptions> service = App.GetService<IOptions<TOptions>>(serviceProvider ?? App.RootServices, false);
             return service?.Value;
         }
 
@@ -169,7 +169,7 @@ namespace Further_Net8_Common.Core
             where TOptions : class, new()
         {
             IOptionsMonitor<TOptions> service =
-                GetService<IOptionsMonitor<TOptions>>(serviceProvider ?? RootServices, false);
+                App.GetService<IOptionsMonitor<TOptions>>(serviceProvider ?? App.RootServices, false);
             return service?.CurrentValue;
         }
 
@@ -180,10 +180,10 @@ namespace Further_Net8_Common.Core
         public static TOptions GetOptionsSnapshot<TOptions>(IServiceProvider serviceProvider = null)
             where TOptions : class, new()
         {
-            IOptionsSnapshot<TOptions> service = GetService<IOptionsSnapshot<TOptions>>(serviceProvider, false);
+            IOptionsSnapshot<TOptions> service = App.GetService<IOptionsSnapshot<TOptions>>(serviceProvider, false);
             return service?.Value;
         }
 
-        #endregion Options
+        #endregion
     }
 }

@@ -1,5 +1,8 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using Further_Net8_Common.Extensions;
+using Further_Net8_Common.Helper;
+using Further_Net8_Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
@@ -26,6 +29,13 @@ namespace Further_Net8_Common.HttpContextUser
             }
             else
             {
+                if (!string.IsNullOrEmpty(GetToken()))
+                {
+                    var getNameType = Permissions.IsUseIds4
+                        ? "name"
+                        : "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name";
+                    return GetUserInfoFromToken(getNameType).FirstOrDefault().ObjToString();
+                }
             }
 
             return "";
@@ -45,6 +55,22 @@ namespace Further_Net8_Common.HttpContextUser
             if (!token.IsNullOrEmpty())
             {
                 return token;
+            }
+
+            if (_accessor.HttpContext?.IsSuccessSwagger() == true)
+            {
+                token = _accessor.HttpContext.GetSuccessSwaggerJwt();
+                if (token.IsNotEmptyOrNull())
+                {
+                    if (_accessor.HttpContext.User.Claims.Any(s => s.Type == JwtRegisteredClaimNames.Jti))
+                    {
+                        return token;
+                    }
+
+                    var claims = new ClaimsIdentity(GetClaimsIdentity(token));
+                    _accessor.HttpContext.User.AddIdentity(claims);
+                    return token;
+                }
             }
 
             return token;
@@ -68,6 +94,8 @@ namespace Further_Net8_Common.HttpContextUser
 
             return new List<string>() { };
         }
+
+        public MessageModel<string> MessageModel { get; set; }
 
         public IEnumerable<Claim> GetClaimsIdentity()
         {

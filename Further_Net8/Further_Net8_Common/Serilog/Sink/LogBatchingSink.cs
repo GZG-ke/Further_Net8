@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Further_Net8_Common.Core;
+﻿using Further_Net8_Common.Core;
+using Further_Net8_Common.Helper;
 using Further_Net8_Common.Serilog.Extensions;
 using Further_Net8_Model.Logs;
 using Mapster;
@@ -45,9 +41,11 @@ namespace Further_Net8_Common.Serilog.Sink
                     case LogEventLevel.Information:
                         await WriteInformationLog(db, v);
                         break;
+
                     case LogEventLevel.Warning:
                         await WriteWarningLog(db, v);
                         break;
+
                     case LogEventLevel.Error:
                     case LogEventLevel.Fatal:
                         await WriteErrorLog(db, v);
@@ -136,6 +134,6 @@ namespace Further_Net8_Common.Serilog.Sink
             await db.AsTenant().InsertableWithAttr(logs).SplitTable().ExecuteReturnSnowflakeIdAsync();
         }
 
-        #endregion
+        #endregion Write Log
     }
 }

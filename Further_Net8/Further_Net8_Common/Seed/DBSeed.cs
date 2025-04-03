@@ -1,9 +1,11 @@
 ﻿using System.Diagnostics;
 using System.Reflection;
 using System.Text;
+using Further_Net8_Common.Consts;
 using Further_Net8_Common.DB;
 using Further_Net8_Common.Extensions;
 using Further_Net8_Common.Helper;
+using Further_Net8_Common.Helper.Consoles;
 using Further_Net8_Model.Models;
 using Further_Net8_Model.Tenants;
 using Magicodes.ExporterAndImporter.Excel;
@@ -34,7 +36,7 @@ namespace Further_Net8_Common.Seed
 
                 SeedDataFolder = Path.Combine(WebRootPath, SeedDataFolder);
 
-                Console.WriteLine("************ Blog.Core DataBase Set *****************");
+                Console.WriteLine("************ Further_Net8_Extensions DataBase Set *****************");
                 Console.WriteLine($"Master DB ConId: {myContext.Db.CurrentConnectionConfig.ConfigId}");
                 Console.WriteLine($"Master DB Type: {myContext.Db.CurrentConnectionConfig.DbType}");
                 Console.WriteLine($"Master DB ConnectString: {myContext.Db.CurrentConnectionConfig.ConnectionString}");
@@ -261,10 +263,7 @@ namespace Further_Net8_Common.Seed
             }
             catch (Exception ex)
             {
-                throw new Exception(
-                    $"1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 \n" +
-                    $"2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 \n" +
-                    "3、其他错误：" + ex.Message);
+                throw new Exception(ex.Message);
             }
         }
 
@@ -463,7 +462,6 @@ namespace Further_Net8_Common.Seed
             itenant.AddConnection(config);
 
             var db = itenant.GetConnectionScope(config.ConfigId);
-
             db.DbMaintenance.CreateDatabase();
             ConsoleHelper.WriteSuccessLine($"Init Multi Tenant Db : {config.ConfigId} Database created successfully!");
 

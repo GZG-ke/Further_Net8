@@ -997,8 +997,8 @@ Message：Start Initialization Db Seed Service!
 Date：2025-03-26 15:07:32.092
 LogLevel：Error
 Message：Error occured seeding the Database.
-System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 
-2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issuecomment-752340231 
 3、其他错误：获取wwwroot路径时，异常！
    at Further_Net8_Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Common\Seed\DBSeed.cs:line 276
    at Further_Net8_Extensions.HostedService.SeedDataHostedService.DoWork() in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Extensions\HostedService\SeedDataHostedService.cs:line 42
@@ -1006,8 +1006,8 @@ System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/B
 Date：2025-03-26 15:07:32.153
 LogLevel：Error
 Message：Hosting failed to start
-System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 
-2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issuecomment-752340231 
 3、其他错误：获取wwwroot路径时，异常！
    at Further_Net8_Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Common\Seed\DBSeed.cs:line 276
    at Further_Net8_Extensions.HostedService.SeedDataHostedService.DoWork() in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Extensions\HostedService\SeedDataHostedService.cs:line 42
@@ -1027,8 +1027,8 @@ Message：Start Initialization Db Seed Service!
 Date：2025-03-26 15:07:38.862
 LogLevel：Error
 Message：Error occured seeding the Database.
-System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 
-2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issuecomment-752340231 
 3、其他错误：获取wwwroot路径时，异常！
    at Further_Net8_Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Common\Seed\DBSeed.cs:line 276
    at Further_Net8_Extensions.HostedService.SeedDataHostedService.DoWork() in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Extensions\HostedService\SeedDataHostedService.cs:line 42
@@ -1036,8 +1036,8 @@ System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/B
 Date：2025-03-26 15:07:38.945
 LogLevel：Error
 Message：Hosting failed to start
-System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 
-2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issuecomment-752340231 
 3、其他错误：获取wwwroot路径时，异常！
    at Further_Net8_Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Common\Seed\DBSeed.cs:line 276
    at Further_Net8_Extensions.HostedService.SeedDataHostedService.DoWork() in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Extensions\HostedService\SeedDataHostedService.cs:line 42
@@ -1081,8 +1081,8 @@ Message：Start Initialization Db Seed Service!
 Date：2025-03-26 15:13:11.320
 LogLevel：Error
 Message：Error occured seeding the Database.
-System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 
-2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issuecomment-752340231 
 3、其他错误：No columns found 
    at Further_Net8_Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Common\Seed\DBSeed.cs:line 276
    at Further_Net8_Extensions.HostedService.SeedDataHostedService.DoWork() in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Extensions\HostedService\SeedDataHostedService.cs:line 42
@@ -1090,8 +1090,8 @@ System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/B
 Date：2025-03-26 15:13:11.369
 LogLevel：Error
 Message：Hosting failed to start
-System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 
-2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issuecomment-752340231 
 3、其他错误：No columns found 
    at Further_Net8_Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Common\Seed\DBSeed.cs:line 276
    at Further_Net8_Extensions.HostedService.SeedDataHostedService.DoWork() in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Extensions\HostedService\SeedDataHostedService.cs:line 42
@@ -1143,8 +1143,8 @@ Message：Start Initialization Db Seed Service!
 Date：2025-03-26 15:21:00.201
 LogLevel：Error
 Message：Error occured seeding the Database.
-System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 
-2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issuecomment-752340231 
 3、其他错误：It was not possible to connect to the redis server(s). There was an authentication failure; check that passwords (or client certificates) are configured correctly: (RedisServerException) NOAUTH Returned - connection has not yet authenticated
    at Further_Net8_Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Common\Seed\DBSeed.cs:line 276
    at Further_Net8_Extensions.HostedService.SeedDataHostedService.DoWork() in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Extensions\HostedService\SeedDataHostedService.cs:line 42
@@ -1152,8 +1152,8 @@ System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/B
 Date：2025-03-26 15:21:00.280
 LogLevel：Error
 Message：Hosting failed to start
-System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issue-776281770 
-2、若是Oracle,查看常见问题:https://github.com/anjoy8/Blog.Core/issues/148#issuecomment-752340231 
+System.Exception: 1、若是Mysql,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issue-776281770 
+2、若是Oracle,查看常见问题:https://github.com/anjoy8/Further_Net8_Extensions/issues/148#issuecomment-752340231 
 3、其他错误：It was not possible to connect to the redis server(s). There was an authentication failure; check that passwords (or client certificates) are configured correctly: (RedisServerException) NOAUTH Returned - connection has not yet authenticated
    at Further_Net8_Common.Seed.DBSeed.SeedAsync(MyContext myContext, String WebRootPath) in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Common\Seed\DBSeed.cs:line 276
    at Further_Net8_Extensions.HostedService.SeedDataHostedService.DoWork() in D:\Lie-Private\MyProject\Further_Net8\Further_Net8\Further_Net8_Extensions\HostedService\SeedDataHostedService.cs:line 42

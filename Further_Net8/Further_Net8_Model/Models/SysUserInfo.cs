@@ -5,6 +5,23 @@ namespace Further_Net8_Model.Models
 {
     public class SysUserInfo : RootEntityTkey<long>
     {
+        public SysUserInfo()
+        {
+        }
+
+        public SysUserInfo(string loginName, string loginPWD)
+        {
+            LoginName = loginName;
+            LoginPWD = loginPWD;
+            RealName = LoginName;
+            Status = 0;
+            CreateTime = DateTime.Now;
+            UpdateTime = DateTime.Now;
+            LastErrorTime = DateTime.Now;
+            ErrorCount = 0;
+            Name = "";
+        }
+
         /// <summary>
         /// 登录账号
         /// </summary>

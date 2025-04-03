@@ -1,0 +1,2924 @@
+
+Date：2025-03-31 09:42:47.643
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.672
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.678
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.685
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.692
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.702
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.710
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.776
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.844
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:42:47.937
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.528
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.554
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.560
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.567
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.583
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.589
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.598
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.638
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.706
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:45:56.771
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.704
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.730
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.737
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.745
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.754
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.762
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.768
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.812
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.895
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:47:36.962
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.598
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.623
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.630
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.638
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.644
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.651
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.656
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.699
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.755
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:48:17.827
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.272
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.297
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.304
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.311
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.321
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.329
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.336
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.374
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.438
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:39.504
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:52.348
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:52.377
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:52.386
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:52.400
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:50:52.429
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:51:33.098
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [bID],[bsubmitter],[btitle],[bcategory],[bcontent],[btraffic],[bcommentNum],[bUpdateTime],[bCreateTime],[bRemark],[IsDeleted] FROM [BlogArticle]  WHERE [bID] = @InPara0   
+[Pars]:
+[Name]:@InPara0 [Value]:1 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.639
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.664
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.671
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.678
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.685
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.691
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.697
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.740
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.792
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:07.862
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:14.707
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:14.732
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:14.742
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:14.752
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:54:14.776
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:59:56.922
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT bsubmitter,btitle,bcontent,bCreateTime FROM BlogArticle WHERE bID>5
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:59:57.063
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [btitle] AS [btitle]  FROM [BlogArticle] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:59:57.166
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [btitle] AS [btitle]  FROM [BlogArticle]  WHERE (( [btitle] = @btitle0 ) AND ( [bRemark] = @bRemark1 ))ORDER BY bID Desc 
+[Pars]:
+[Name]:@btitle0 [Value]:xxx [Type]:String    
+[Name]:@bRemark1 [Value]:XXX [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:59:57.250
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE [BlogArticle]  SET
+           [bsubmitter]=@bsubmitter,[IsDeleted]=@IsDeleted  WHERE [bID]=@bID 
+[Pars]:
+[Name]:@bID [Value]:5 [Type]:Int64    
+[Name]:@bsubmitter [Value]:laozhang176 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:59:57.264
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [bID],[bsubmitter],[btitle],[bcategory],[bcontent],[btraffic],[bcommentNum],[bUpdateTime],[bCreateTime],[bRemark],[IsDeleted] FROM [BlogArticle]  WHERE ( [bID] > @bID0 )ORDER BY [bID] ASC 
+[Pars]:
+[Name]:@bID0 [Value]:0 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:59:57.278
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [m].[Name] AS [moduleName] , [p].[Name] AS [permName] , [rmp].[RoleId] AS [rid] , [rmp].[ModuleId] AS [mid] , [rmp].[PermissionId] AS [pid]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Permission] [p] ON ( [rmp].[PermissionId] = [p].[Id] )   WHERE ( [rmp].[IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 09:59:57.299
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[RoleId],[ModuleId],[PermissionId],[Id] FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.527
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.556
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.562
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.570
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.576
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.582
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.588
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.632
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.692
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:29.787
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:55.965
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:55.992
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:56.003
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:56.018
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:01:56.046
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:02:05.341
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [bID],[bsubmitter],[btitle],[bcategory],[bcontent],[btraffic],[bcommentNum],[bUpdateTime],[bCreateTime],[bRemark],[IsDeleted] FROM [BlogArticle]  WHERE ( [bID] > @bID0 )ORDER BY [bID] ASC 
+[Pars]:
+[Name]:@bID0 [Value]:0 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:03:18.376
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT bsubmitter,btitle,bcontent,bCreateTime FROM BlogArticle WHERE bID>5
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:03:58.120
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [btitle] AS [btitle]  FROM [BlogArticle] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:03:59.403
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [btitle] AS [btitle]  FROM [BlogArticle]  WHERE (( [btitle] = @btitle0 ) AND ( [bRemark] = @bRemark1 ))ORDER BY bID Desc 
+[Pars]:
+[Name]:@btitle0 [Value]:xxx [Type]:String    
+[Name]:@bRemark1 [Value]:XXX [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:04:00.060
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE [BlogArticle]  SET
+           [bsubmitter]=@bsubmitter,[IsDeleted]=@IsDeleted  WHERE [bID]=@bID 
+[Pars]:
+[Name]:@bID [Value]:5 [Type]:Int64    
+[Name]:@bsubmitter [Value]:laozhang10 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:04:00.430
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [bID],[bsubmitter],[btitle],[bcategory],[bcontent],[btraffic],[bcommentNum],[bUpdateTime],[bCreateTime],[bRemark],[IsDeleted] FROM [BlogArticle]  WHERE ( [bID] > @bID0 )ORDER BY [bID] ASC 
+[Pars]:
+[Name]:@bID0 [Value]:0 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:04:00.923
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [m].[Name] AS [moduleName] , [p].[Name] AS [permName] , [rmp].[RoleId] AS [rid] , [rmp].[ModuleId] AS [mid] , [rmp].[PermissionId] AS [pid]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Permission] [p] ON ( [rmp].[PermissionId] = [p].[Id] )   WHERE ( [rmp].[IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:04:08.557
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[RoleId],[ModuleId],[PermissionId],[Id] FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:05:20.495
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["UnKnown"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT bsubmitter,btitle,bcontent,bCreateTime FROM BlogArticle WHERE bID>5
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:05:20.589
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [btitle] AS [btitle]  FROM [BlogArticle] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:05:20.683
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [btitle] AS [btitle]  FROM [BlogArticle]  WHERE (( [btitle] = @btitle0 ) AND ( [bRemark] = @bRemark1 ))ORDER BY bID Desc 
+[Pars]:
+[Name]:@btitle0 [Value]:xxx [Type]:String    
+[Name]:@bRemark1 [Value]:XXX [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:05:20.690
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Update"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:UPDATE [BlogArticle]  SET
+           [bsubmitter]=@bsubmitter,[IsDeleted]=@IsDeleted  WHERE [bID]=@bID 
+[Pars]:
+[Name]:@bID [Value]:5 [Type]:Int64    
+[Name]:@bsubmitter [Value]:laozhang687 [Type]:String    
+[Name]:@IsDeleted [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:05:20.697
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [bID],[bsubmitter],[btitle],[bcategory],[bcontent],[btraffic],[bcommentNum],[bUpdateTime],[bCreateTime],[bRemark],[IsDeleted] FROM [BlogArticle]  WHERE ( [bID] > @bID0 )ORDER BY [bID] ASC 
+[Pars]:
+[Name]:@bID0 [Value]:0 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:05:20.709
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [m].[Name] AS [moduleName] , [p].[Name] AS [permName] , [rmp].[RoleId] AS [rid] , [rmp].[ModuleId] AS [mid] , [rmp].[PermissionId] AS [pid]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Permission] [p] ON ( [rmp].[PermissionId] = [p].[Id] )   WHERE ( [rmp].[IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:05:23.628
+LogLevel：Information
+Message：------------------ 
+ User:["test"]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[RoleId],[ModuleId],[PermissionId],[Id] FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.408
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.434
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.441
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.448
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.454
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.461
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.466
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.505
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.557
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:32.632
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.217
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.248
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.639
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.655
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.664
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.668
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.677
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.685
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.691
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:06:39.693
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.460
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.486
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.493
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.500
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.506
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.513
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.520
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.558
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.616
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:10:54.684
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:11:26.205
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:11:26.225
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:11:26.232
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:11:26.241
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:11:26.267
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.079
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.110
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.117
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.123
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.130
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.138
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.145
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.187
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.249
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:23.320
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:34.572
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:34.594
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:34.603
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:34.613
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:12:34.636
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.240
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.271
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.279
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.286
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.293
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.304
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.310
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.350
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.421
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:08.496
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:16.401
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:16.429
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:16.445
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:16.455
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:14:16.480
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.104
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.131
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.139
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.146
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.153
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.160
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.166
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.207
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.268
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:28:24.333
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:29:36.026
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:29:36.051
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:29:36.059
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:29:36.072
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:29:36.096
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.366
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.395
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.405
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.413
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.419
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.425
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.432
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.475
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.532
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:00.601
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.512
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.512
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.542
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.542
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.550
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.552
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.562
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.566
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.587
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:33:12.594
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:45.993
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.023
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.031
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.039
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.047
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.057
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.065
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.109
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.184
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:46.265
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:52.897
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:52.949
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:52.957
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:52.975
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:34:52.998
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.205
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.235
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.242
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.249
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.254
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.260
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.266
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.307
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.368
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:38.451
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:59.678
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:59.702
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:59.709
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:59.719
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:35:59.742
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.556
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.580
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.588
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.594
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.601
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.607
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.613
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.652
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.712
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:04.783
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:29.774
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:29.795
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:29.803
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:29.813
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:37:29.838
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.021
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.050
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.059
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.069
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.077
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.085
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.096
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.137
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.217
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:03.290
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:46.129
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:46.148
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:46.154
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:46.164
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 10:40:46.185
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:44.989
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.014
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.023
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.031
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.038
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.045
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.051
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.090
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.158
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:26:45.231
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:34.801
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:34.828
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:34.835
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:34.841
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:34.849
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:34.861
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:34.868
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:34.917
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:35.024
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:27:35.141
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.787
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.813
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.819
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.826
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.832
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.838
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.846
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.886
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:52.948
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:28:53.035
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:29:26.052
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:29:26.076
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:29:26.086
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:29:26.100
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:29:26.124
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.553
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Modules] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.580
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Permission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.588
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Role] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.595
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [RoleModulePermission] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.605
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [UserRole] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.611
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysUserInfo] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.617
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [Department] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.683
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  TOP 1 1 FROM [SysTenant] 
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.756
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:2 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:02.869
+LogLevel：Information
+Message：------------------ 
+ User:[null]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [Name],[TenantType],[ConfigId],[Host],[DbType],[Connection],[Status],[Remark],[Id] FROM [SysTenant]  WHERE ( [TenantType] = @TenantType0 ) 
+[Pars]:
+[Name]:@TenantType0 [Value]:3 [Type]:Int32    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:29.206
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE ((( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) AND ( [IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:29.228
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [LoginName],[LoginPWD],[RealName],[Status],[DepartmentId],[Remark],[CreateTime],[UpdateTime],[CriticalModifyTime],[LastErrorTime],[ErrorCount],[Name],[Sex],[Age],[Birth],[Address],[Enable],[IsDeleted],[TenantId],[Id] FROM [SysUserInfo]  WHERE (( [LoginName] = @LoginName0 ) AND ( [LoginPWD] = @LoginPWD1 )) 
+[Pars]:
+[Name]:@LoginName0 [Value]:test [Type]:String    
+[Name]:@LoginPWD1 [Value]:098F6BCD4621D373CADE4E832627B4F6 [Type]:String    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:29.235
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [IsDeleted],[Name],[Description],[OrderSort],[Dids],[AuthorityScope],[Enabled],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [Role]  WHERE ( [IsDeleted] = @IsDeleted0 ) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:29.244
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT [UserId],[RoleId],[IsDeleted],[CreateId],[CreateBy],[CreateTime],[ModifyId],[ModifyBy],[ModifyTime],[Id] FROM [UserRole]  WHERE ( [UserId] = @UserId0 ) 
+[Pars]:
+[Name]:@UserId0 [Value]:8 [Type]:Int64    
+"
+----------------------------------------------------------------------------------------------------
+Date：2025-03-31 11:31:29.269
+LogLevel：Information
+Message：------------------ 
+ User:[""]  Table:[""]  Operate:["Query"] ConnId:["main"]【SQL语句】: 
+ "
+[Sql]:SELECT  [r].[IsDeleted] AS [r.Role.IsDeleted] , [r].[Name] AS [r.Role.Name] , [r].[Description] AS [r.Role.Description] , [r].[OrderSort] AS [r.Role.OrderSort] , [r].[Dids] AS [r.Role.Dids] , [r].[AuthorityScope] AS [r.Role.AuthorityScope] , [r].[Enabled] AS [r.Role.Enabled] , [r].[CreateId] AS [r.Role.CreateId] , [r].[CreateBy] AS [r.Role.CreateBy] , [r].[CreateTime] AS [r.Role.CreateTime] , [r].[ModifyId] AS [r.Role.ModifyId] , [r].[ModifyBy] AS [r.Role.ModifyBy] , [r].[ModifyTime] AS [r.Role.ModifyTime] , [r].[Id] AS [r.Role.Id] , [m].[ParentId] AS [m.Modules.ParentId] , [m].[IsDeleted] AS [m.Modules.IsDeleted] , [m].[Name] AS [m.Modules.Name] , [m].[LinkUrl] AS [m.Modules.LinkUrl] , [m].[Area] AS [m.Modules.Area] , [m].[Controller] AS [m.Modules.Controller] , [m].[Action] AS [m.Modules.Action] , [m].[Icon] AS [m.Modules.Icon] , [m].[Code] AS [m.Modules.Code] , [m].[OrderSort] AS [m.Modules.OrderSort] , [m].[Description] AS [m.Modules.Description] , [m].[IsMenu] AS [m.Modules.IsMenu] , [m].[Enabled] AS [m.Modules.Enabled] , [m].[CreateId] AS [m.Modules.CreateId] , [m].[CreateBy] AS [m.Modules.CreateBy] , [m].[CreateTime] AS [m.Modules.CreateTime] , [m].[ModifyId] AS [m.Modules.ModifyId] , [m].[ModifyBy] AS [m.Modules.ModifyBy] , [m].[ModifyTime] AS [m.Modules.ModifyTime] , [m].[Id] AS [m.Modules.Id] , [rmp].[IsDeleted] AS [IsDeleted]  FROM [RoleModulePermission] [rmp] Left JOIN [Modules] [m] ON ( [rmp].[ModuleId] = [m].[Id] )  Left JOIN [Role] [r] ON ( [rmp].[RoleId] = [r].[Id] )   WHERE ((( [rmp].[IsDeleted] = @IsDeleted0 ) AND ( [m].[IsDeleted] = @IsDeleted1 )) AND ( [r].[IsDeleted] = @IsDeleted2 )) 
+[Pars]:
+[Name]:@IsDeleted0 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted1 [Value]:False [Type]:Boolean    
+[Name]:@IsDeleted2 [Value]:False [Type]:Boolean    
+"
+----------------------------------------------------------------------------------------------------

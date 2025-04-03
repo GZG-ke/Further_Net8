@@ -16,6 +16,7 @@ namespace Further_Net8_Extensions.ServiceExtensions
                 ArgumentNullException.ThrowIfNull(nameof(services));
             }
             services.AddHostedService<SeedDataHostedService>();
+            services.AddHostedService<EventBusHostedService>();
         }
     }
 }

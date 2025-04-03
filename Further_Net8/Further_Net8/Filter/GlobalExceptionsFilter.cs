@@ -6,6 +6,7 @@ using Further_Net8_Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.SignalR;
+using StackExchange.Profiling;
 
 namespace Further_Net8.Filter
 {
@@ -46,7 +47,7 @@ namespace Further_Net8.Filter
 
             context.Result = res;
 
-            //MiniProfiler.Current.CustomTiming("Errors：", json.msg);
+            MiniProfiler.Current.CustomTiming("Errors：", json.msg);
 
             //进行错误日志记录
             _loggerHelper.LogError(json.msg + WriteLog(json.msg, context.Exception));

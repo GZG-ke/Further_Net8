@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.DirectoryServices.Protocols;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net;
 using Further_Net8_Model;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
@@ -47,6 +41,7 @@ namespace Further_Net8_Extensions.Middlewares
                 case UnauthorizedAccessException:
                     context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
                     break;
+
                 default:
                     context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                     break;

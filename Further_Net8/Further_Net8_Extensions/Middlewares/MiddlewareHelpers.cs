@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Diagnostics;
+﻿using Microsoft.AspNetCore.Builder;
 
 namespace Further_Net8_Extensions.Middlewares
 {
@@ -35,10 +29,10 @@ namespace Further_Net8_Extensions.Middlewares
         /// </summary>
         /// <param name="app"></param>
         /// <returns></returns>
-        //public static IApplicationBuilder UseSignalRSendMiddle(this IApplicationBuilder app)
-        //{
-        //    return app.UseMiddleware<SignalRSendMiddleware>();
-        //}
+        public static IApplicationBuilder UseSignalRSendMiddle(this IApplicationBuilder app)
+        {
+            return app.UseMiddleware<SignalRSendMiddleware>();
+        }
 
         /// <summary>
         /// 异常处理中间件
@@ -55,19 +49,19 @@ namespace Further_Net8_Extensions.Middlewares
         /// </summary>
         /// <param name="app"></param>
         /// <returns></returns>
-        //public static IApplicationBuilder UseIpLogMiddle(this IApplicationBuilder app)
-        //{
-        //    return app.UseMiddleware<IpLogMiddleware>();
-        //}
+        public static IApplicationBuilder UseIpLogMiddle(this IApplicationBuilder app)
+        {
+            return app.UseMiddleware<IpLogMiddleware>();
+        }
 
         /// <summary>
         /// 用户访问中间件
         /// </summary>
         /// <param name="app"></param>
         /// <returns></returns>
-        //public static IApplicationBuilder UseRecordAccessLogsMiddle(this IApplicationBuilder app)
-        //{
-        //    return app.UseMiddleware<RecordAccessLogsMiddleware>();
-        //}
+        public static IApplicationBuilder UseRecordAccessLogsMiddle(this IApplicationBuilder app)
+        {
+            return app.UseMiddleware<RecordAccessLogsMiddleware>();
+        }
     }
 }

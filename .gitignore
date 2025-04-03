@@ -356,6 +356,7 @@ Blog.Core/Blog.Core*.xml
 Blog.Core.Api/WMBlog.db
 Blog.Core.Api/wwwroot/ui/
 Blog.Core.Api/Logs
+*.db
 /Blog.Core.Api/WMBlog.db-journal
 .docs/.vuepress/dist/
-*/Logs/*
+Blog.Core.Api/wwwroot/Temp/Sessions
